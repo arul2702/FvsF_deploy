@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FvsF</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Carlito&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+        <a href=""><img src="\WebD\simple_responsive\logo.png" alt="Logo"></a>
+        <div class="menu-links" id="menu-links">
+            <i class="fa fa-times" onclick="hideList()"></i>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Team</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showList()"></i>
+    </nav>
+    <div class="text-box">
+        <h1>Ford Vs Ferrari</h1>
+        <p> There's a point at 7,000 RPM... where everything fades. The machine becomes weightless. Just disappears.And all that's left is a body moving through space and time.</p>
+        <a href=""class="com-btm">Ride down</a>
+    </div>
+    </section>
+    <section class="awards">
+        <h1>Awards</h1>
+        <p>Ford v Ferrari is a 2019 American sports drama film directed by James Mangold and written by Jez Butterworth, John-Henry Butterworth, and Jason Keller.</p>
+        <div class="row">
+            <div class="col">
+                <h2>Academy Award for Best Film Editing</h2>
+                <p>The Academy Award for Best Film Editing is one of the annual awards of the Academy of Motion Picture Arts and Sciences (AMPAS). Nominations for this award are closely correlated with the Academy Award for Best Picture.</p>
+            </div>
+            <div class="col">
+                <h2>Academy Award for Best Sound Editing</h2>
+                <p>The Academy Award for Best Sound is an Academy Award that recognizes the finest or most euphonic sound mixing, recording, sound design, and sound editing. </p>
+            </div>
+            <div class="col">
+                <h2>BAFTA Award for Best Editing</h2>
+                <p>This is a list of winners and nominees for the BAFTA Award for Best Editing, which is presented to film editors, given out by the British Academy of Film and Television Arts since 1968.</p>
+            </div>
+        </div>
+    </section>
+    <section class="campus">
+        <h1>F vs F</h1>
+        <p>We're lighter, we're faster, and if that don't work, we're nastier.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="\WebD\simple_responsive\fordcar.jpg" alt="">
+                <div class="layer"><h3>Ford</h3></div>
+            </div>
+            <div class="campus-col">
+                <img src="\WebD\simple_responsive\ferraricar.jpg" alt="">
+                <div class="layer"><h3>Ferrari</h3></div>
+            </div>
+        </div>
+    </section>
+    <section class="cta">
+        <h1>Stay connected for more flim updates</h1>
+        <a href="" class="com-btm">CONTACT US</a>
+    </section>
+    <section class="foot">
+        <h1>About us</h1>
+        <p>It’s a competitive market out there, and businesses that want to succeed need to take advantage of every tool and resource within their reach. <br> Smart decisions help businesses thrive, and reliable information is the key to intelligent decisions.</p>
+        <div class="icons">
+            <ion-icon name="logo-chrome"></ion-icon>
+            <ion-icon name="logo-vk"></ion-icon>
+            <ion-icon name="logo-apple"></ion-icon>
+            <ion-icon name="logo-dropbox"></ion-icon>
+        </div>
+    </section>
+</body>
+<script>
+    var menuLinks = document.getElementById("menu-links");
+    function showList(){
+        menuLinks.style.right = "0";
+    }
+    function hideList(){
+        menuLinks.style.right = "-200px";
+    }
+</script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</html>
